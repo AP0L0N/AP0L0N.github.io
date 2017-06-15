@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+    <!-- Demo -->
+    <style type="text/css">
+        body {
+            font-family: "Open Sans", Arial, sans-serif;
+            letter-spacing: 1px;
+            font-size: 16px;
+            margin: 50px 0;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- Widget wrapper -->
+    <div id="widget"></div>
+
+    <!-- Include the widget -->
+    <script type="text/javascript" src="js/widget.js"></script>
+
+    <!-- Init the widget -->
+    <script type="text/javascript">
+
+        try {
+
+            // Create widget either via wrapper id or HTMLElement
+            let widget = new Widget("widget", {
+                title: "Testni widget",
+                columns: [
+                    {
+                        title: "123",
+                        items: [
+                            {
+                                name: "Item A",
+                                alias: "hueheu"
+                            }
+                        ]
+                    },
+                    {
+                        title: "column B",
+                        items: [
+                            {
+                                name: "Item D",
+                                alias: "hihi"
+                            },
+                            {
+                                name: "Item C",
+                                alias: "test",
+                                selected: true
+                            },
+                            {
+                                name: "Item B",
+                                alias: "item"
+                            }
+                        ]
+                    },
+                    {
+                        title: "column C",
+                        items: [
+                            {
+                                name: "Item E",
+                                alias: "hola",
+                                selected: true
+                            },
+                            {
+                                name: "Item F",
+                                alias: "hihi2"
+                            }
+                        ]
+                    },
+                    {
+                        title: "column D",
+                        items: [
+                            {
+                                name: "Item G",
+                                alias: "hola"
+                            },
+                            {
+                                name: "Item H",
+                                alias: "hihi2"
+                            }
+                        ]
+                    }
+                ]
+            });
+
+            console.log(widget.getItemPosition("Item E"));
+
+        } catch (err) {
+
+            console.log(err);
+
+        } finally {
+
+            // Todo: Get on with your life
+        }
+
+    </script>
+
+</body>
+</html>

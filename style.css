@@ -1,0 +1,80 @@
+#widget {
+  text-align: center; }
+  #widget .box, #widget > div, #widget > div ol li {
+    border: thin solid #DDD;
+    box-shadow: 2px 2px 6px #EEE; }
+  #widget h1, #widget h2 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2em; }
+  #widget > div {
+    display: inline-block;
+    max-width: 100%;
+    width: 200px;
+    margin: 0 15px 15px 0;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px; }
+    #widget > div h2 {
+      font-size: 1.2em; }
+    #widget > div button {
+      background: none;
+      border: thin solid #CCC;
+      padding: 5px 30px;
+      font-size: 15px;
+      border-radius: 0;
+      color: #666; }
+    #widget > div button[disabled] {
+      opacity: 0.3; }
+    #widget > div ol {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      text-align: left;
+      min-height: 170px;
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      #widget > div ol li {
+        margin-bottom: 6px;
+        padding: 10px;
+        transition: background-color 0.25s;
+        -webkit-transition: background-color 0.25s;
+        -moz-transition: background-color 0.25s;
+        -o-transition: background-color 0.25s;
+        transition: color 0.15s;
+        -webkit-transition: color 0.15s;
+        -moz-transition: color 0.15s;
+        -o-transition: color 0.15s; }
+        #widget > div ol li span.alias {
+          transition: color 0.15s;
+          -webkit-transition: color 0.15s;
+          -moz-transition: color 0.15s;
+          -o-transition: color 0.15s;
+          float: right;
+          font-size: 0.7em;
+          color: #7abeff; }
+      #widget > div ol li.selected {
+        background-color: rgba(255, 0, 21, 0.4);
+        color: white;
+        transition: background-color 0.25s;
+        -webkit-transition: background-color 0.25s;
+        -moz-transition: background-color 0.25s;
+        -o-transition: background-color 0.25s;
+        transition: color 0.15s;
+        -webkit-transition: color 0.15s;
+        -moz-transition: color 0.15s;
+        -o-transition: color 0.15s; }
+        #widget > div ol li.selected span.alias {
+          transition: color 0.15s;
+          -webkit-transition: color 0.15s;
+          -moz-transition: color 0.15s;
+          -o-transition: color 0.15s;
+          color: white; }
+    #widget > div .action {
+      margin: 5px; }
+
+/*# sourceMappingURL=style.css.map */

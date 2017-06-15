@@ -1,0 +1,103 @@
+
+@mixin transition($transition) {
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+}
+
+@mixin select($select) {
+  -webkit-touch-callout: $select;
+  -webkit-user-select: $select;
+  -khtml-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+
+
+#widget {
+  text-align: center;
+
+  .box {
+    border:thin solid #DDD;
+    box-shadow: 2px 2px 6px #EEE;
+  }
+
+  h1, h2 {
+    color:#333;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+
+  > div {
+
+    @extend .box;
+    display: inline-block;
+    max-width: 100%;
+    width: 200px;
+    margin: 0 15px 15px 0;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px;
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    button {
+      background: none;
+      border: thin solid #CCC;
+      padding: 5px 30px;
+      font-size: 15px;
+      border-radius: 0;
+      color: #666;
+    }
+
+    button[disabled] {
+      opacity: 0.3;
+    }
+
+    ol {
+      @include select(none);
+      text-align: left;
+      min-height: 170px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        @extend .box;
+        margin-bottom: 6px;
+        padding: 10px;
+
+        @include transition(background-color 0.25s);
+        @include transition(color 0.15s);
+
+        span.alias {
+          @include transition(color 0.15s);
+          float:right;
+          font-size: 0.7em;
+          color: #7abeff;
+        }
+      }
+
+      li.selected {
+        background-color: rgba(255, 0, 21, 0.4);
+        color:white;
+
+        @include transition(background-color 0.25s);
+        @include transition(color 0.15s);
+
+        span.alias {
+          @include transition(color 0.15s);
+          color: white;
+        }
+      }
+    }
+
+    .action {
+      margin: 5px;
+    }
+  }
+}
