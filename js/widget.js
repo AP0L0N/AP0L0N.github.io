@@ -129,7 +129,7 @@ class Widget {
      *
      * @class
      * @param wrapper {string | Node} <p>Either pass widget html node ID or Node node. Wrapper node is used to create columns inside.</p>
-     * @param args {Widget} <p>Widget options such as title and columns.</p>
+     * @param args <p>Widget options such as title and columns.</p>
      */
     constructor(wrapper, args = null) {
         this._wrapper = (typeof wrapper === "string" ? document.getElementById(wrapper) : wrapper);
