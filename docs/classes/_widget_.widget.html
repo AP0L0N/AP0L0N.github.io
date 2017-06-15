@@ -90,18 +90,30 @@
 						<section class="tsd-index-section tsd-is-not-exported">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#columns" class="tsd-kind-icon">columns</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#title" class="tsd-kind-icon">title</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#wrapper" class="tsd-kind-icon">wrapper</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#_columns" class="tsd-kind-icon">_columns</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#_title" class="tsd-kind-icon">_title</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#_wrapper" class="tsd-kind-icon">_wrapper</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-not-exported"><a href="_widget_.widget.html#selectable" class="tsd-kind-icon">selectable</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#columns" class="tsd-kind-icon">columns</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#title" class="tsd-kind-icon">title</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#wrapper" class="tsd-kind-icon">wrapper</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-not-exported">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#drawcolumns" class="tsd-kind-icon">draw<wbr>Columns</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#addselectioneventtoitem" class="tsd-kind-icon">add<wbr>Selection<wbr>Event<wbr>ToItem</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#drawcolumn" class="tsd-kind-icon">draw<wbr>Column</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#drawwidget" class="tsd-kind-icon">draw<wbr>Widget</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#findcolumn" class="tsd-kind-icon">find<wbr>Column</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#getitem" class="tsd-kind-icon">get<wbr>Item</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-not-exported"><a href="_widget_.widget.html#getitemposition" class="tsd-kind-icon">get<wbr>Item<wbr>Position</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported"><a href="_widget_.widget.html#initiatemovebutton" class="tsd-kind-icon">initiate<wbr>Move<wbr>Button</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static tsd-is-not-exported"><a href="_widget_.widget.html#getselectable" class="tsd-kind-icon">get<wbr>Selectable</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static tsd-is-not-exported"><a href="_widget_.widget.html#setselectable" class="tsd-kind-icon">set<wbr>Selectable</a></li>
 							</ul>
@@ -115,22 +127,41 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-not-exported">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Widget<span class="tsd-signature-symbol">(</span>wrapper<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLElement</span>, args<span class="tsd-signature-symbol">?: </span><a href="_widget_.widget.html" class="tsd-signature-type">Widget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_widget_.widget.html" class="tsd-signature-type">Widget</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Widget<span class="tsd-signature-symbol">(</span>wrapper<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Element</span>, args<span class="tsd-signature-symbol">?: </span><a href="_widget_.widget.html" class="tsd-signature-type">Widget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_widget_.widget.html" class="tsd-signature-type">Widget</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in widget.ts:172</li>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L168">widget.ts:168</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Create a new sorting widget class Widget.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>class</dt>
+									<dd></dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>wrapper: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLElement</span></h5>
+									<h5>wrapper: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Element</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Either pass widget html node ID or Node node. Wrapper node is used to create columns inside.</p>
+										</div>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> args: <a href="_widget_.widget.html" class="tsd-signature-type">Widget</a><span class="tsd-signature-symbol"> =&nbsp;null</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Widget options such as title and columns.</p>
+										</div>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_widget_.widget.html" class="tsd-signature-type">Widget</a></h4>
@@ -140,33 +171,33 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
 				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-not-exported">
-					<a name="columns" class="tsd-anchor"></a>
-					<h3>columns</h3>
-					<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="_widget_.column.html" class="tsd-signature-type">Column</a><span class="tsd-signature-symbol">[]</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+					<a name="_columns" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _columns</h3>
+					<div class="tsd-signature tsd-kind-icon">_columns<span class="tsd-signature-symbol">:</span> <a href="_widget_.column.html" class="tsd-signature-type">Column</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in widget.ts:171</li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-not-exported">
-					<a name="title" class="tsd-anchor"></a>
-					<h3>title</h3>
-					<div class="tsd-signature tsd-kind-icon">title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in widget.ts:170</li>
+							<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L166">widget.ts:166</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
-					<a name="wrapper" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> wrapper</h3>
-					<div class="tsd-signature tsd-kind-icon">wrapper<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div>
+					<a name="_title" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _title</h3>
+					<div class="tsd-signature tsd-kind-icon">_title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in widget.ts:168</li>
+							<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L163">widget.ts:163</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+					<a name="_wrapper" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _wrapper</h3>
+					<div class="tsd-signature tsd-kind-icon">_wrapper<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Element</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L160">widget.ts:160</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -176,27 +207,223 @@
 					<div class="tsd-signature tsd-kind-icon">selectable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in widget.ts:172</li>
+							<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L168">widget.ts:168</a></li>
 						</ul>
 					</aside>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
-				<h2>Methods</h2>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
-					<a name="drawcolumns" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> draw<wbr>Columns</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
-						<li class="tsd-signature tsd-kind-icon">draw<wbr>Columns<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-not-exported">
+					<a name="columns" class="tsd-anchor"></a>
+					<h3>columns</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> columns<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_widget_.column.html" class="tsd-signature-type">Column</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> columns<span class="tsd-signature-symbol">(</span>columns<span class="tsd-signature-symbol">: </span><a href="_widget_.column.html" class="tsd-signature-type">Column</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in widget.ts:200</li>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L223">widget.ts:223</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get widget columns</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="_widget_.column.html" class="tsd-signature-type">Column</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L232">widget.ts:232</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Set widget columns</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>columns: <a href="_widget_.column.html" class="tsd-signature-type">Column</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported">
+					<a name="title" class="tsd-anchor"></a>
+					<h3>title</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> title<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L214">widget.ts:214</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get widget title</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported">
+					<a name="wrapper" class="tsd-anchor"></a>
+					<h3>wrapper</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> wrapper<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Element</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L205">widget.ts:205</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get widget wrapper node</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Element</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+					<a name="addselectioneventtoitem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> add<wbr>Selection<wbr>Event<wbr>ToItem</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Selection<wbr>Event<wbr>ToItem<span class="tsd-signature-symbol">(</span>handle<span class="tsd-signature-symbol">: </span><a href="_widget_.widget.html" class="tsd-signature-type">Widget</a>, item<span class="tsd-signature-symbol">: </span><a href="_widget_.item.html" class="tsd-signature-type">Item</a>, column<span class="tsd-signature-symbol">: </span><a href="_widget_.column.html" class="tsd-signature-type">Column</a>, listWrapper<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L403">widget.ts:403</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Add events to enable selection of items</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>handle: <a href="_widget_.widget.html" class="tsd-signature-type">Widget</a></h5>
+								</li>
+								<li>
+									<h5>item: <a href="_widget_.item.html" class="tsd-signature-type">Item</a></h5>
+								</li>
+								<li>
+									<h5>column: <a href="_widget_.column.html" class="tsd-signature-type">Column</a></h5>
+								</li>
+								<li>
+									<h5>listWrapper: <span class="tsd-signature-type">HTMLElement</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+					<a name="drawcolumn" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> draw<wbr>Column</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">draw<wbr>Column<span class="tsd-signature-symbol">(</span>handle<span class="tsd-signature-symbol">: </span><a href="_widget_.widget.html" class="tsd-signature-type">Widget</a>, column<span class="tsd-signature-symbol">: </span><a href="_widget_.column.html" class="tsd-signature-type">Column</a>, index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L278">widget.ts:278</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Draw single widget column</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>handle: <a href="_widget_.widget.html" class="tsd-signature-type">Widget</a></h5>
+								</li>
+								<li>
+									<h5>column: <a href="_widget_.column.html" class="tsd-signature-type">Column</a></h5>
+								</li>
+								<li>
+									<h5>index: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
+					<a name="drawwidget" class="tsd-anchor"></a>
+					<h3>draw<wbr>Widget</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">draw<wbr>Widget<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L239">widget.ts:239</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Draw initial widget columns and set items and events</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
+					<a name="findcolumn" class="tsd-anchor"></a>
+					<h3>find<wbr>Column</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Column<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_widget_.column.html" class="tsd-signature-type">Column</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L489">widget.ts:489</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Find column by name</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_widget_.column.html" class="tsd-signature-type">Column</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">boolean</span>
+							</h4>
 						</li>
 					</ul>
 				</section>
@@ -210,25 +437,28 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in widget.ts:383</li>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L452">widget.ts:452</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Return item from one of the columns of the widget. If the item is not found return false.</p>
+									<p>Return item from one of the _olumns of the widget. If the item is not found return false.</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Item name</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_widget_.item.html" class="tsd-signature-type">Item</a>
 								<span class="tsd-signature-symbol"> | </span>
 								<span class="tsd-signature-type">boolean</span>
 							</h4>
-							<p>Return either found item or false.</p>
+							<p>Return either found item or false if not found.</p>
 						</li>
 					</ul>
 				</section>
@@ -242,19 +472,68 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in widget.ts:397</li>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L472">widget.ts:472</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets the information in which column the item is.</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Item name</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
 								<span class="tsd-signature-symbol"> | </span>
 								<span class="tsd-signature-type">boolean</span>
 							</h4>
+							<p>Return column name or false if not found.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+					<a name="initiatemovebutton" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> initiate<wbr>Move<wbr>Button</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">initiate<wbr>Move<wbr>Button<span class="tsd-signature-symbol">(</span>handle<span class="tsd-signature-symbol">: </span><a href="_widget_.widget.html" class="tsd-signature-type">Widget</a>, listWrapper<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Node</span>, currentColumn<span class="tsd-signature-symbol">: </span><a href="_widget_.column.html" class="tsd-signature-type">Column</a>, nextColumn<span class="tsd-signature-symbol">: </span><a href="_widget_.column.html" class="tsd-signature-type">Column</a>, sign<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L345">widget.ts:345</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Initiate move buttons on a single column</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>handle: <a href="_widget_.widget.html" class="tsd-signature-type">Widget</a></h5>
+								</li>
+								<li>
+									<h5>listWrapper: <span class="tsd-signature-type">Node</span></h5>
+								</li>
+								<li>
+									<h5>currentColumn: <a href="_widget_.column.html" class="tsd-signature-type">Column</a></h5>
+								</li>
+								<li>
+									<h5>nextColumn: <a href="_widget_.column.html" class="tsd-signature-type">Column</a></h5>
+								</li>
+								<li>
+									<h5>sign: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -268,10 +547,16 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in widget.ts:413</li>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L515">widget.ts:515</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get current selectable state.</p>
+								</div>
+							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>Return TRUE if widget is selectable (user is holding down CTRL</p>
 						</li>
 					</ul>
 				</section>
@@ -285,13 +570,21 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in widget.ts:409</li>
+									<li>Defined in <a href="https://github.com/ap0l0n/ap0l0n.github.io/blob/26569f7/js/widget.ts#L506">widget.ts:506</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>When holding down CTRL - mark widget items as selectable.</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>selectable: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Set TRUE or FALSE to selectable.</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -327,26 +620,47 @@
 							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-not-exported">
 								<a href="_widget_.widget.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-not-exported">
-								<a href="_widget_.widget.html#columns" class="tsd-kind-icon">columns</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-not-exported">
-								<a href="_widget_.widget.html#title" class="tsd-kind-icon">title</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+								<a href="_widget_.widget.html#_columns" class="tsd-kind-icon">_columns</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
-								<a href="_widget_.widget.html#wrapper" class="tsd-kind-icon">wrapper</a>
+								<a href="_widget_.widget.html#_title" class="tsd-kind-icon">_title</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+								<a href="_widget_.widget.html#_wrapper" class="tsd-kind-icon">_wrapper</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static tsd-is-not-exported">
 								<a href="_widget_.widget.html#selectable" class="tsd-kind-icon">selectable</a>
 							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class tsd-is-not-exported">
+								<a href="_widget_.widget.html#columns" class="tsd-kind-icon">columns</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported">
+								<a href="_widget_.widget.html#title" class="tsd-kind-icon">title</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-not-exported">
+								<a href="_widget_.widget.html#wrapper" class="tsd-kind-icon">wrapper</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
-								<a href="_widget_.widget.html#drawcolumns" class="tsd-kind-icon">draw<wbr>Columns</a>
+								<a href="_widget_.widget.html#addselectioneventtoitem" class="tsd-kind-icon">add<wbr>Selection<wbr>Event<wbr>ToItem</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+								<a href="_widget_.widget.html#drawcolumn" class="tsd-kind-icon">draw<wbr>Column</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
+								<a href="_widget_.widget.html#drawwidget" class="tsd-kind-icon">draw<wbr>Widget</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
+								<a href="_widget_.widget.html#findcolumn" class="tsd-kind-icon">find<wbr>Column</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
 								<a href="_widget_.widget.html#getitem" class="tsd-kind-icon">get<wbr>Item</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-not-exported">
 								<a href="_widget_.widget.html#getitemposition" class="tsd-kind-icon">get<wbr>Item<wbr>Position</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-not-exported">
+								<a href="_widget_.widget.html#initiatemovebutton" class="tsd-kind-icon">initiate<wbr>Move<wbr>Button</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static tsd-is-not-exported">
 								<a href="_widget_.widget.html#getselectable" class="tsd-kind-icon">get<wbr>Selectable</a>
@@ -358,12 +672,6 @@
 					</li>
 				</ul>
 				<ul class="after-current">
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported">
-						<a href="../interfaces/_widget_.icolumn.html" class="tsd-kind-icon">IColumn</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported">
-						<a href="../interfaces/_widget_.iitem.html" class="tsd-kind-icon">IItem</a>
-					</li>
 				</ul>
 			</nav>
 		</div>

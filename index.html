@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>test</title>
+    <title>A re-usable widget for sorting out your problems</title>
 
     <!-- Demo -->
     <style type="text/css">
@@ -14,7 +14,7 @@
         }
     </style>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
@@ -29,9 +29,11 @@
 
         try {
 
-            // Create widget either via wrapper id or HTMLElement
+            /***
+             *  Create a new widget instance either via wrapper id or HTMLElement
+             */
             let widget = new Widget("widget", {
-                title: "Testni widget",
+                title: "Test widget",
                 columns: [
                     {
                         title: "123",
@@ -51,8 +53,7 @@
                             },
                             {
                                 name: "Item C",
-                                alias: "test",
-                                selected: true
+                                alias: "test"
                             },
                             {
                                 name: "Item B",
@@ -90,7 +91,27 @@
                 ]
             });
 
-            console.log(widget.getItemPosition("Item E"));
+            /***
+             * Find item inside widget
+             *
+             */
+            console.log(widget.getItem("Item F"));
+
+            /***
+             * Find items position inside widget
+             *
+             */
+            console.log(widget.getItemPosition("Item G"));
+
+            /***
+             * Add new item to existing column and redraw widget.
+             */
+            if(column = widget.findColumn("123")) {
+                let item = new Item({name:"test123"});
+
+                column.addItem(item);
+                widget.drawWidget();
+            }
 
         } catch (err) {
 
@@ -98,7 +119,7 @@
 
         } finally {
 
-            // Todo: Get on with your life
+            // Move along, nothing to see here
         }
 
     </script>
